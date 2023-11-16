@@ -2,4 +2,8 @@ const firstFunc = () => {
     return "hello world"
 }
 
-module.exports = {firstFunc}
+const handleSubmitBtn = (e) => {
+    e.preventDefault();
+}
+
+module.exports = {firstFunc, handleSubmitBtn}
